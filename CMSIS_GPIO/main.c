@@ -17,7 +17,7 @@ void INIT_GPIOA0_INPUT() {
 
     // MODE = 00, CNF = 10 - input with pull-up/down
     GPIOA->CRL |= GPIO_CRL_CNF0_1;
-    GPIOA->ODR |= GPIO_ODR_ODR0; // enable pull-up
+    GPIOA->ODR |= GPIO_ODR_ODR1; // enable pull-up
 }
 
 int main() {
